@@ -1,0 +1,176 @@
+{
+  "login-subscribe": {
+    "login": {
+      "value": "/plus",
+      "text": "Login"
+    },
+    "plus": {
+      "value": "/plus",
+      "text": "Subscribe"
+    }
+  },
+  "quick-nav": [
+    {
+      "value": "/news",
+      "text": "News"
+    },
+    {
+      "value": "/sports",
+      "text": "Sports"
+    },
+    {
+      "value": "/opinion",
+      "text": "Opinion"
+    },
+    {
+      "value": "/entertainment",
+      "text": "Entertainment"
+    }
+  ],
+  "main-nav": {
+    "links": [
+      {
+        "value": "/news",
+        "space": [
+          {
+            "image": "",
+            "text": "Sections"
+          },
+          {
+            "image": "",
+            "text": "News Blogs"
+          }
+        ],
+        "links": [
+          {
+            "value": "/news/1",
+            "text": "Sub News 1",
+            "image": ""
+          },
+          {
+            "value": "/news/2",
+            "text": "Sub News 2",
+            "image": ""
+          },
+          {
+            "value": "/news/3",
+            "text": "Sub News 3",
+            "image": ""
+          },
+          {
+            "value": "/news/4",
+            "text": "Sub News 4",
+            "image": ""
+          },
+          {
+            "value": "/news/5",
+            "text": "Sub News 5",
+            "image": ""
+          },
+          {
+            "value": "/news/1",
+            "text": "Blog 1",
+            "image": ""
+          },
+          {
+            "value": "/news/2",
+            "text": "Blog 2",
+            "image": ""
+          }
+        ],
+        "text": "News",
+        "image": ""
+      },
+      {
+        "value": "/sports",
+        "space": [
+          {
+            "image": "",
+            "text": "Sections"
+          },
+          {
+            "image": "",
+            "text": "Blogs"
+          }
+        ],
+        "links": [
+          {
+            "value": "/news/1",
+            "text": "Sub Sport 1 ",
+            "image": ""
+          },
+          {
+            "value": "/news/2",
+            "text": "Sub Sport 2",
+            "image": ""
+          },
+          {
+            "value": "/news/3",
+            "text": "Sub Sport 3",
+            "image": ""
+          },
+          {
+            "value": "/news/4",
+            "text": "Sub Sport 4",
+            "image": ""
+          },
+          {
+            "value": "/news/5",
+            "text": "Sub Sport 5",
+            "image": ""
+          },
+          {
+            "value": "/news/1",
+            "text": "Sport Blog 1",
+            "image": ""
+          },
+          {
+            "value": "/news/2",
+            "text": "Sport Blog 2",
+            "image": ""
+          }
+        ],
+        "text": "Sports",
+        "image": ""
+      },
+      {
+        "value": "/business",
+        "text": "Business"
+      },
+      {
+        "value": "/politics",
+        "text": "Politics"
+      },
+      {
+        "value": "/entertainment",
+        "text": "Entertainment"
+      },
+      {
+        "value": "/opinion",
+        "text": "Opinion"
+      },
+      {
+        "value": "/whatever",
+        "text": "Communities"
+      },
+      {
+        "value": "/deals",
+        "text": "Local Deals"
+      },
+      {
+        "value": "/jobs",
+        "text": "Jobs"
+      },
+      {
+        "value": "/cars",
+        "text": "Cars"
+      },
+      {
+        "value": "/homes",
+        "text": "Homes"
+      }
+    ],
+    "space": {
+    }
+  }
+}
