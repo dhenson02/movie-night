@@ -1,1 +1,20 @@
 {#model.id}{.|s}{/model.id}
+<div id="video-tabs-wrapper">
+    <ul class="nav nav-tabs" role="tablist">
+    {#model.tabs}
+        <li role="presentation" {@first}class="active"{/first}><a href="#{label}" aria-controls="{label}" role="tab" data-toggle="tab">{label}</a></li>
+    {/model.tabs}
+    </ul>
+    <div class="tab-content">
+        {#model.tabs}
+            <div role="tabpanel" class="tab-pane{@first} active{/first}" id="{label}">
+                {#content}
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <h1 class="title">{title}</h1>
+                        <img src="{thumbnail}" />
+                    </div>
+                {/content}
+            </div>
+        {/model.tabs}
+    </div>
+</div>

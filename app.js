@@ -9,6 +9,7 @@ client = new Client();
 
 dust.config.whitespace = true;
 dust.config.cache = false;
+dust.helper = require('dustjs-helpers');
 
 // Define a custom `onLoad` function to tell Dust how to load templates
 dust.onLoad = function(tmpl, cb) {

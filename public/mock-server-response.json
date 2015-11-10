@@ -428,8 +428,11 @@
       ]
     }
   ],
-  "tabs": {
-    "tab-1": [
+  "tabs": [
+    {
+      "label": "Sports",
+      "content":
+    [
       {
         "id": "28637",
         "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
@@ -826,8 +829,11 @@
           }
         ]
       }
-    ],
-    "tab-2": [
+    ]},
+    {
+        "label": "News",
+        "content":
+     [
       {
         "id": "28637",
         "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
@@ -1224,8 +1230,11 @@
           }
         ]
       }
-    ],
-    "tab-3": [
+    ]},
+    {
+        "label": "Other",
+        "content":
+    [
       {
         "id": "28637",
         "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
@@ -1622,6 +1631,6 @@
           }
         ]
       }
-    ]
-  }
+    ]}
+  ]
 }
