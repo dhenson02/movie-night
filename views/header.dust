@@ -4,21 +4,6 @@
 <meta name="google-site-verification" content="78fVR1x_WUC9-DpXgQlPgksKYDAk0f5HpLyJU5bO7Do"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <script type="text/javascript" src="http://qa1.kansascity.com/static/js/mi-scripts/safeurl.js?sVer=1.0.70-912bded"></script>
-<script>
-var gomez={
-gs: new Date().getTime(),
-acctId:"D3FD89",
-grpId:"Escenic",
-grpId1:"mci",
-grpId2:window.location.hostname,
-grpId3:"ece_frontpage",
-pgId:"section-front",
-wrate:1
-};
-</script>
-<script src="http://qa1.kansascity.com/static/js/dtagent61_bxzjnpr2s3_8191.js"
-data-dtconfig="cors=1|bandwidth=300|tp=500,50,10,1,20|reportUrl=http://mcclatchy.compuwareapmaas
-.com/dynaTraceMonitor"></script>
 <title>Breaking News, Sports, Weather &amp; More | The Kansas City Star &amp; KansasCity.com The Kansas City Star</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="alternate" type="application/rss+xml" title="Breaking News, Sports, Weather & More | The Kansas City Star & KansasCity.com" href="http://qa1.kansascity.com/?widgetName=rssfeed&widgetContentId=224125&getXmlFeed=true" />
@@ -134,9 +119,5 @@ mistats.pagename="Home: Homepage";
 mistats.taxonomy="_HomePage||||";
 mistats.channel="Homepage";
 </script>
-<script type='text/javascript' src='http://media.kansascity.com/misites/ksc/kansascity.js'></script>
-<!--[if gt IE 8]>
-<script async src="http://i.simpli.fi/dpx.js?cid=2400&action=100&segment=site&m=1"></script>
-<script async src="http://i.simpli.fi/dpx.js?cid=2400&action=100&segment=_HomePage&m=1"></script>
-<![endif]-->
+<script type='text/javascript' src='http://media.kansascity.com/misites/mcc/nmtesttest.js'></script>
 </head>
