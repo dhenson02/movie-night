@@ -1,4 +1,51 @@
-{#model.id}{.|s}{/model.id}
+{#model}
+
+    <div class="row" id="video-detail">
+        <div class="col-xs-8 element_spacing_large">
+            <div class="video-media">
+                <div id="player_{model.id}">Loading the player...</div>
+            </div>    
+            <div class="video-info row element_spacing_medium" id="story-header">
+                <div class="col-sm-12">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+
+        </div>
+    </div>
+    <div class="row element_spacing_medium">
+        <h1 class="heading video-detail-heading">More Videos</h1>
+        <section class="more-videos col-xs-12 col-sm-6 col-md-12">
+            
+        </section>
+    </div>
+
+    <script type="text/javascript">
+        window.jwplayer.key = 'tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==';
+        
+        var player_instance = jwplayer("player_{model.id}");
+        var playlist_items = 
+        
+        player_instance.setup({
+            file: '{sources[1].uri}',
+            image: '{thumbnail}',
+            title: '{title}',
+            playlist: [
+                {#related-videos}
+                    {
+                        file: '{sources[1].uri}',
+                        image: '{thumbnail}',
+                        title: '{title}',
+                    }{@sep}, {/sep}
+                {/related-videos}
+            ]
+        });
+    </script>
+
+{/model}
+
 <div id="video-tabs-wrapper">
     <ul class="nav nav-tabs" role="tablist">
     {#model.tabs}

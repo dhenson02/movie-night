@@ -12,7 +12,7 @@ client = new Client();
 /**
  * setting up dust
  */
-var useDust = false;
+var useDust = true;
 dust.config.whitespace = true;
 dust.config.cache = false;
 dust.helper = require('dustjs-helpers');
