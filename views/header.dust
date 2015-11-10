@@ -35,6 +35,7 @@ data-dtconfig="cors=1|bandwidth=300|tp=500,50,10,1,20|reportUrl=http://mcclatchy
 <link rel="shortcut icon" href="http://qa1.kansascity.com/static/theme/kansascity/base/ico/favicon.png">
 <link rel="canonical" href="http://qa1.kansascity.com/"/>
 <link href="http://qa1.kansascity.com/static/theme/kansascity-2020/base/css/main-1.0.70-912bded.css?sVer=1.0.70-912bded" rel="stylesheet">
+<link rel="stylesheet" href="/stylesheets/style.css">
 <!--[if lt IE 9]>
 <script src="http://qa1.kansascity.com/static/js/html5shiv.js?sVer=1.0.70-912bded"></script>
 <script src="http://qa1.kansascity.com/static/js/respond.min.js?sVer=1.0.70-912bded"></script>
