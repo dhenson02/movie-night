@@ -1,0 +1,10 @@
+<!doctype html>
+{>"header"/}
+<body>
+    {>"masthead"/}
+    <div class="container">
+        {>"dust-site"/}
+    </div>
+    {>"footer"/}
+</body>
+</html>

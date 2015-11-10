@@ -1,0 +1,1627 @@
+{
+  "id": "28637",
+  "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+  "asset_type": "videoIngest",
+  "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+  "publication": "playground",
+  "modified_date": 1437584199,
+  "published_date": 1433253489,
+  "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+  "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+  "assets": {},
+  "leadtext": [
+    {
+      "text": "Raleigh street"
+    }
+  ],
+  "sources": [
+    {
+      "height": 360,
+      "mime-type": "video/mp4",
+      "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+      "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+      "width": 640
+    },
+    {
+      "height": 720,
+      "mime-type": "video/mp4",
+      "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+      "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+      "width": 1280
+    }
+  ],
+  "related-videos": [
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    },
+    {
+      "id": "28637",
+      "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+      "asset_type": "videoIngest",
+      "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+      "publication": "playground",
+      "modified_date": 1437584199,
+      "published_date": 1433253489,
+      "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+      "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+      "assets": {},
+      "leadtext": [
+        {
+          "text": "Raleigh street"
+        }
+      ],
+      "sources": [
+        {
+          "height": 360,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+          "width": 640
+        },
+        {
+          "height": 720,
+          "mime-type": "video/mp4",
+          "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+          "width": 1280
+        }
+      ]
+    }
+  ],
+  "tabs": {
+    "tab-1": [
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      }
+    ],
+    "tab-2": [
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      }
+    ],
+    "tab-3": [
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      },
+      {
+        "id": "28637",
+        "url": "http://playground-ece.devel.nandomedia.com/latest-news/article28637.html",
+        "asset_type": "videoIngest",
+        "title": "60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804 movie",
+        "publication": "playground",
+        "modified_date": 1437584199,
+        "published_date": 1433253489,
+        "thumbnail": "http://alpha.misitemgr.com:8080/webservice/thumbnail/article/28640",
+        "href": "http://rpre005d.devel.nandomedia.com:9090/api/v1/content/28637/index.json",
+        "assets": {},
+        "leadtext": [
+          {
+            "text": "Raleigh street"
+          }
+        ],
+        "sources": [
+          {
+            "height": 360,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609627471-vktvj2/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487089.mp4",
+            "width": 640
+          },
+          {
+            "height": 720,
+            "mime-type": "video/mp4",
+            "mrid": "binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "uri": "http://output.mci.media.s3.amazonaws.com/binary/2015/6/2/13/1431609699972-ar3p6n/60005582-ad50345d-bbc9-4a35-9cd4-e5b39da8f804-1433253487541.mp4",
+            "width": 1280
+          }
+        ]
+      }
+    ]
+  }
+}

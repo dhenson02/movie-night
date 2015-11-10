@@ -1,0 +1,46 @@
+// All functions that can take parameters, advanced functionality
+
+// 480px+
+@mixin xsmall-screen() {
+	@media screen and (min-width: $screen-xs) {
+		@content;
+	}
+}
+
+// 768px+
+@mixin small-screen() {
+	@media screen and (min-width: $screen-sm) {
+		@content;
+	}
+}
+
+// 992px+
+@mixin medium-screen() {
+	@media screen and (min-width: $screen-md) {
+		@content;
+	}
+}
+
+// 1200px+
+@mixin large-screen() {
+	@media screen and (min-width: $screen-lg) {
+		@content;
+	}
+}
+
+@mixin center-me($axis: "both"){
+	position:absolute;
+	@if $axis == "y"{
+		top:50%;
+        transform: translateY(-50%);
+	}
+	@if $axis == "x"{
+		left:50%;
+        transform: translateX(-50%);
+	}
+	@if $axis == "both"{
+		top:50%;
+		left:50%;
+        transform: translate(-50%, -50%);
+	}	
+}

@@ -1,0 +1,85 @@
+// Rules that are global to the site, things like box sizing, html font size, heading and link defaults, etc.
+
+body {
+	font-family: Arial;
+	background: $dark-blue;
+	color: $text-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+	line-height: 24px;
+	overflow-x: hidden;
+	@include small-screen {
+		font-size: 19px;
+		line-height: 28px;
+	}
+	@include medium-screen {
+		font-size: 22px;
+		line-height: 33px;
+	}
+}
+
+// Basic Typography Rules
+
+h1 {
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 32px;
+	@include small-screen {
+		font-size: 38px;
+		line-height: 45px;
+		margin-bottom: 25px;
+	}
+	@include medium-screen {
+		font-size: 48px;
+		line-height: 58px;
+		margin-bottom: 35px;
+	}
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 26px;
+	@include small-screen {
+		font-size: 26px;
+		line-height: 34px;
+		margin-bottom: 20px;
+	}
+	@include medium-screen {
+		font-size: 28px;
+		line-height: 36px;
+	}
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 27px;
+	@include small-screen {
+		font-size: 24px;
+		line-height: 35px;
+		margin-bottom: 20px;
+	}
+	@include medium-screen {
+		font-size: 26px;
+		line-height: 39px;
+	}
+}
+
+.btn {
+	display: inline-block;
+	font-size: 16px;
+	height: 45px;
+	line-height: 45px;
+	border: none;
+	background: $primary-btn;
+	padding: 0 30px;
+	vertical-align: top;
+	outline: 0;
+	text-decoration: none;
+	&:hover, &:focus, &:active {
+		background: $primary-btn-hover;
+		color: $dark-blue;
+	}
+}

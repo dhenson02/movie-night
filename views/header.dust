@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="78fVR1x_WUC9-DpXgQlPgksKYDAk0f5HpLyJU5bO7Do"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript" src="http://qa1.kansascity.com/static/js/mi-scripts/safeurl.js?sVer=1.0.70-912bded"></script>
+<script>
+var gomez={
+gs: new Date().getTime(),
+acctId:"D3FD89",
+grpId:"Escenic",
+grpId1:"mci",
+grpId2:window.location.hostname,
+grpId3:"ece_frontpage",
+pgId:"section-front",
+wrate:1
+};
+</script>
+<script src="http://qa1.kansascity.com/static/js/dtagent61_bxzjnpr2s3_8191.js"
+data-dtconfig="cors=1|bandwidth=300|tp=500,50,10,1,20|reportUrl=http://mcclatchy.compuwareapmaas
+.com/dynaTraceMonitor"></script>
+<title>Breaking News, Sports, Weather &amp; More | The Kansas City Star &amp; KansasCity.com The Kansas City Star</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="alternate" type="application/rss+xml" title="Breaking News, Sports, Weather & More | The Kansas City Star & KansasCity.com" href="http://qa1.kansascity.com/?widgetName=rssfeed&widgetContentId=224125&getXmlFeed=true" />
+<meta name="keywords" content="Homepage, Kansas City, Overland Park, Independence, Lawrence, Liberty, Lee s Summit, MO, Missouri, The Kansas City Star, KansasCity.com, KC, star, kcstar, newspaper"/>
+<meta name="description" content="The Kansas City Star newspaper in Kansas City, MO is proud to offer you local news coverage online. Serving the Kansas City Metro, KansasCity.com has local, breaking, weather, traffic, crime, sports and national news stories, articles and columns."/>
+<meta name="googlebot" content="noodp, noarchive"/>
+<meta name="robots" content="noindex,nofollow"/>
+<meta name="msapplication-TileImage" content="http://qa1.kansascity.com/static/theme/kansascity/base/ico/windowsmetro-144.png"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://qa1.kansascity.com/static/theme/kansascity/base/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://qa1.kansascity.com/static/theme/kansascity/base/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://qa1.kansascity.com/static/theme/kansascity/base/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="http://qa1.kansascity.com/static/theme/kansascity/base/ico/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="http://qa1.kansascity.com/static/theme/kansascity/base/ico/favicon.png">
+<link rel="canonical" href="http://qa1.kansascity.com/"/>
+<link href="http://qa1.kansascity.com/static/theme/kansascity-2020/base/css/main-1.0.70-912bded.css?sVer=1.0.70-912bded" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="http://qa1.kansascity.com/static/js/html5shiv.js?sVer=1.0.70-912bded"></script>
+<script src="http://qa1.kansascity.com/static/js/respond.min.js?sVer=1.0.70-912bded"></script>
+<script type="text/javascript" src="http://qa1.kansascity.com/static/js/mi-scripts/pollyfill.js?sVer=1.0.70-912bded"></script>
+<![endif]-->
+<script type="text/javascript" src="http://qa1.kansascity.com/static/js/jquery-1.10.2.min.js?sVer=1.0.70-912bded"></script>
+<script type="text/javascript" src="http://qa1.kansascity.com/static/js/mi-wf-site-1.0.70-912bded.js"></script>
+<script type="text/javascript">
+mi.pageInfo.setConf({
+'marketInfo.pagelevel':'homepage',
+'marketInfo.careerbuilder.mxjobsrchcriteria_rawwords':'outside+sales',
+'wufoo.formID':'',
+'publication.mediadomain':'media.kansascity.com',
+'accuweather.apiKey':'2ce96fe9da724185a27db1e6a3ecf580',
+'marketInfo.application_version':'1.0.70-912bded',
+'marketInfo.logoAltText':'The Kansas City Star',
+'marketInfo.allow_ads':'true',
+'pressPlus.package.printAndDigital.price':'$1.00/week',
+'marketInfo.pagelevel_informational':'false',
+'marketInfo.addcities':'Overland Park, Independence, Lawrence, Liberty, Lee s Summit',
+'marketInfo.staticDirectory':'MCI',
+'marketInfo.state_abbreviation':'MO',
+'marketInfo.devDirectory':'',
+'publication.domain':'KansasCity.com',
+'accuweather.partnerCode':'MCCLATCHY',
+'zvents.swhen':'next 3 days',
+'marketInfo.domain':'escenic-prod',
+'facebook.app.id':'436249433149897',
+'zvents.swhat':'',
+'marketInfo.clipped_taxonomy':'_HomePage',
+'marketInfo.careerbuilder.lr':'CBCB_KC',
+'accuweather.locationString':'Kansas City',
+'marketInfo.webmaster_email':'kcsfeedback@kansascity.com',
+'pressPlus.package.printAndDigital.url':'https://estar.kcstar.com/special',
+'marketInfo.phone':'816-234-4636',
+'marketInfo.sourcelevel':'ecefrontpage',
+'pressPlus.zone':'NB4fWW8JF-ov1ET5hFYO1e',
+'olive.localBrand':'E-Star',
+'marketInfo.carsSEO':'"SEO information for the cars page"',
+'marketInfo.zipcode':'64108',
+'marketInfo.shortURL':'breaking',
+'marketInfo.carsAFF':'kansascity',
+'legacy.siteName':'kansascity',
+'wishabi.apiKey':'3daeea236cece48f',
+'marketInfo.kill_dealsaver':'false',
+'marketInfo.viewsizes':[{"Large":[1200,600]},{"Medium":[992,300]},{"Small":[768,300]},{"Extra-Small":[0,0]}],
+'findnsave.tracking':'findnsave',
+'classads.homefinderUrl':'http://www.homefinder.com/KS/Kansas-City/',
+'pressPlus.package.digitalOnly.price':'$0.95/month',
+'legacy.affiliateId':'kc001164',
+'accuweather.dev':'true',
+'marketInfo.state':'Missouri',
+'cs.circ_phone':'1(800)555-7777',
+'zvents.max_sponsored':'2',
+'marketInfo.siteId':'81',
+'marketInfo.county':'Jackson County',
+'zvents.max_events':'4',
+'zvents.domain':'http://events.myrtlebeachonline.com',
+'marketInfo.adsizes':{"outofpage":{},"default":{"None":[],"970x90":[970,90],"Billboard Flex":[[960,30],[970,30],[970,90],[970,250]],"960x30":[960,30],"728x90":[728,90],"600x250":[600,250],"500x300":[500,300],"468x60":[468,60],"336x280":[336,280],"320x450":[320,450],"320x50":[320,50],"300x600":[300,600],"Flex Ad":[[300,250],[300,600]],"Welcome Ad":[[300,250],[300,600],[550,480],[600,500]],"300x250":[300,250],"300x100":[300,100],"300x75":[300,75],"300x50":[300,50],"240x400":[240,400],"234x60":[234,60],"216x36":[216,36],"180x150":[180,150],"168x28":[168,28],"160x600":[160,600],"160x90":[160,90],"146x60":[146,60],"120x600":[120,600],"120x240":[120,240],"120x20":[120,20],"Rising Star":[500,300]},"floorboard":{"None":[],"285x70":[285,70]},"wallpaper":{"None":[],"1600x600":[1600,600]}},
+'marketInfo.careerbuilder.s_freshness':'30',
+'wishabi.bodyId':'861',
+'obituaries.deathNoticeUrl':'http://www.legacy.com/obituaries/kansascity/obituary-place-an-obituary.aspx',
+'classads.carsUrl':'http://www.cars.com/?aff=kansascity',
+'marketInfo.name':'The Kansas City Star',
+'marketInfo.location':'Kansas City',
+'marketInfo.region':'',
+'classads.apartmentsUrl':'http://www.apartments.com/Missouri/Kansas-City',
+'marketInfo.code':'MCI',
+'pressPlus.package.digitalOnly.url':'https://estar.kcstar.com/plus',
+'cs.circ_url':'/customer-service/',
+'marketInfo.market_identifier':'MCI.site_escenic-prod',
+'wf.resource.static.rootUrl':'http://qa1.kansascity.com/static/',
+'financialContent.account':'kansascity',
+'marketInfo.followLinks':'1',
+'marketInfo.networkid':'7675',
+'marketInfo.product':'site',
+'wishabi.navId':'1058',
+'obituaries.deathNoticeEmail':'obit@kansascity.com',
+'marketInfo.careerbuilder.s_rawwords':'CustomField3:KCSTARTJ',
+'marketInfo.street_address':'1729 Grand Blvd., Kansas City, MO 64108',
+'obituaries.deathNoticePhone':'305-376-8901',
+'accuweather.locationKey':'329441',
+'pressPlus.localBrand':'Star+',
+'marketInfo.taxonomy':'_HomePage////',
+'marketInfo.city':'Kansas City',
+});
+</script>
+<script type="text/javascript" >
+mi_Ads.env.create();
+</script>
+<script type="text/javascript">
+var mistats = mistats || {};
+mistats.pagelevel="Home";
+mistats.cmsid="Homepage: 1725";
+mistats.pagename="Home: Homepage";
+mistats.taxonomy="_HomePage||||";
+mistats.channel="Homepage";
+</script>
+<script type='text/javascript' src='http://media.kansascity.com/misites/ksc/kansascity.js'></script>
+<!--[if gt IE 8]>
+<script async src="http://i.simpli.fi/dpx.js?cid=2400&action=100&segment=site&m=1"></script>
+<script async src="http://i.simpli.fi/dpx.js?cid=2400&action=100&segment=_HomePage&m=1"></script>
+<![endif]-->
+</head>
