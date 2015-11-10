@@ -2,29 +2,48 @@ var fs = require('fs'),
     path = require('path'),
     express = require('express'),
     request = require('request'),
+    nunjucks = require('nunjucks'),
     dust = require('dustjs-linkedin');
 
 var Client = require('node-rest-client').Client;
 client = new Client();
 
+
+/**
+ * setting up dust
+ */
+var useDust = false;
 dust.config.whitespace = true;
 dust.config.cache = false;
 dust.helper = require('dustjs-helpers');
-
-// Define a custom `onLoad` function to tell Dust how to load templates
 dust.onLoad = function(tmpl, cb) {
   fs.readFile(path.join('./views', path.relative('/', path.resolve('/', tmpl + '.dust'))),
       { encoding: 'utf8' }, cb);
 };
 
+
 var app = express();
 app.get('/', function (req, res) {
-    client.get("http://localhost:3000/mock-server-response.json", function(data, response){
-        dust.stream("index", {
-            "model": data
-        }).pipe(res);
-    });
+    if(useDust == true) {
+        client.get("http://localhost:3000/mock-server-response.json", function(data, response){
+            dust.stream("index", {
+                "model": data
+            }).pipe(res);
+        });
+    } else {
+        res.render('index.html');
+    }
 });
+
+
+/**
+ * setting up nunjucks
+ */
+nunjucks.configure('views', {
+    autoescape: true,
+    express: app
+});
+
 
 app.use(express.static('public'));
 

@@ -19,7 +19,8 @@
     "mocha": "^2.0.1",
     "request": "^2.53.0",
     "selenium-webdriver": "^2.44.0",
-    "node-rest-client": "1.5.1"
+    "node-rest-client": "1.5.1",
+    "nunjucks": "2.1.0"
   },
   "scripts": {
     "start": "node app.js",
