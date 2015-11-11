@@ -28,149 +28,151 @@
     }
   ],
   "main-nav": {
-    "links": [
+    "sections": [
       {
-        "value": "/news",
-        "space": [
-          {
-            "image": "",
-            "text": "Sections"
-          },
-          {
-            "image": "",
-            "text": "News Blogs"
-          }
-        ],
-        "links": [
-          {
-            "value": "/news/1",
-            "text": "Sub News 1",
-            "image": ""
-          },
-          {
-            "value": "/news/2",
-            "text": "Sub News 2",
-            "image": ""
-          },
-          {
-            "value": "/news/3",
-            "text": "Sub News 3",
-            "image": ""
-          },
-          {
-            "value": "/news/4",
-            "text": "Sub News 4",
-            "image": ""
-          },
-          {
-            "value": "/news/5",
-            "text": "Sub News 5",
-            "image": ""
-          },
-          {
-            "value": "/news/1",
-            "text": "Blog 1",
-            "image": ""
-          },
-          {
-            "value": "/news/2",
-            "text": "Blog 2",
-            "image": ""
-          }
-        ],
         "text": "News",
-        "image": ""
+        "link": "none",
+        "sub-sections": [
+          {
+            "text": "Sections",
+            "links": [
+              {
+                "value": "/news/1",
+                "text": "Sub News 1",
+                "image": ""
+              },
+              {
+                "value": "/news/2",
+                "text": "Sub News 2",
+                "image": ""
+              },
+              {
+                "value": "/news/3",
+                "text": "Sub News 3",
+                "image": ""
+              },
+              {
+                "value": "/news/4",
+                "text": "Sub News 4",
+                "image": ""
+              },
+              {
+                "value": "/news/5",
+                "text": "Sub News 5",
+                "image": ""
+              }
+            ]
+          },
+          {
+            "text": "Blogs",
+            "link": "none",
+            "links": [
+              {
+                "value": "/news/1",
+                "text": "Blog 1",
+                "image": ""
+              },
+              {
+                "value": "/news/2",
+                "text": "Blog 2",
+                "image": ""
+              }
+            ]
+          }
+        ]
       },
       {
-        "value": "/sports",
-        "space": [
-          {
-            "image": "",
-            "text": "Sections"
-          },
-          {
-            "image": "",
-            "text": "Blogs"
-          }
-        ],
-        "links": [
-          {
-            "value": "/news/1",
-            "text": "Sub Sport 1 ",
-            "image": ""
-          },
-          {
-            "value": "/news/2",
-            "text": "Sub Sport 2",
-            "image": ""
-          },
-          {
-            "value": "/news/3",
-            "text": "Sub Sport 3",
-            "image": ""
-          },
-          {
-            "value": "/news/4",
-            "text": "Sub Sport 4",
-            "image": ""
-          },
-          {
-            "value": "/news/5",
-            "text": "Sub Sport 5",
-            "image": ""
-          },
-          {
-            "value": "/news/1",
-            "text": "Sport Blog 1",
-            "image": ""
-          },
-          {
-            "value": "/news/2",
-            "text": "Sport Blog 2",
-            "image": ""
-          }
-        ],
         "text": "Sports",
-        "image": ""
+        "link": "none",
+        "sub-sections": [
+          {
+            "text": "Sections",
+            "links": [
+              {
+                "value": "/news/1",
+                "text": "Sub Sport 1",
+                "image": ""
+              },
+              {
+                "value": "/news/2",
+                "text": "Sub Sport 2",
+                "image": ""
+              },
+              {
+                "value": "/news/3",
+                "text": "Sub Sport 3",
+                "image": ""
+              },
+              {
+                "value": "/news/4",
+                "text": "Sub Sport 4",
+                "image": ""
+              },
+              {
+                "value": "/news/5",
+                "text": "Sub Sport 5",
+                "image": ""
+              }
+            ]
+          },
+          {
+            "text": "Blogs",
+            "link": "none",
+            "links": [
+              {
+                "value": "/news/1",
+                "text": "Sport Blog 1",
+                "image": ""
+              },
+              {
+                "value": "/news/2",
+                "text": "Sport Blog 2",
+                "image": ""
+              }
+            ]
+          }
+        ]
       },
       {
-        "value": "/business",
-        "text": "Business"
+        "text": "Business",
+        "link": "/business"
       },
       {
-        "value": "/politics",
-        "text": "Politics"
+        "text": "Politics",
+        "link": "/politics"
       },
       {
-        "value": "/entertainment",
-        "text": "Entertainment"
+        "text": "Entertainment",
+        "link": "/entertainment"
       },
       {
-        "value": "/opinion",
-        "text": "Opinion"
+        "text": "Opinion",
+        "link": "/opinion"
       },
       {
-        "value": "/whatever",
-        "text": "Communities"
+        "text": "Communities",
+        "link": "/communities"
       },
       {
-        "value": "/deals",
-        "text": "Local Deals"
+        "text": "Local Deals",
+        "link": "/deals"
       },
       {
-        "value": "/jobs",
-        "text": "Jobs"
+        "text": "",
+        "link": "none"
       },
       {
-        "value": "/cars",
-        "text": "Cars"
+        "text": "Jobs",
+        "link": "/jobs"
       },
       {
-        "value": "/homes",
-        "text": "Homes"
+        "text": "Cars",
+        "link": "/cars"
+      },
+      {
+        "text": "Homes",
+        "link": "/homes"
       }
-    ],
-    "space": {
-    }
+    ]
   }
 }
