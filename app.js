@@ -3,9 +3,9 @@ var fs = require('fs'),
     express = require('express'),
     request = require('request'),
     nunjucks = require('nunjucks'),
+    dust = require('dustjs-linkedin'),
     jsrender = require('node-jsrender'),
-    handlebars = require('handlebars'),
-    dust = require('dustjs-linkedin');
+    handlebars = require('express-handlebars');
 
 var Client = require('node-rest-client').Client;
 client = new Client();
@@ -20,8 +20,8 @@ client = new Client();
  */
 //var engine = "dust";
 //var engine = "nunjucks";
-var engine = "jsrender";
-//var engine = "handlebars";
+//var engine = "jsrender";
+var engine = "handlebars";
 
 
 /**
@@ -39,12 +39,21 @@ app.get('/', function (req, res) {
         } else if(engine == "jsrender") {
             res.render('jsrender/index.html', {model: data});
         } else if(engine == "handlebars") {
-            return;
+            res.render('handlebars/index', {model: data});
         } else {
             return;
         }
     });
 });
+
+
+/**
+ * setting up handlebars
+ */
+if(engine == "handlebars") {
+    app.engine('handlebars', handlebars());
+    app.set('view engine', 'handlebars');
+}
 
 
 /**
