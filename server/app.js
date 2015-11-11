@@ -1,17 +1,19 @@
+/**
+ * configuring dust
+ */
+dust.config.whitespace = true;
+
+
 var fs = require('fs'),
     path = require('path'),
     async = require('async'),
     express = require('express'),
     request = require('request'),
-    dust = require('dustjs-linkedin'),
     properties = require('properties'),
+    dust = require('dustjs-linkedin'),
+    handlebars = require('handlebars'),
+    jsrender = require('node-jsrender'),
     client = require('node-rest-client');
-
-
-/**
- * configuring dust
- */
-dust.config.whitespace = true;
 dust.config.cache = false;
 dust.onLoad = function (tmpl, cb) {
     fs.readFile(path.join('./views', path.relative('/', path.resolve('/', tmpl + '.dust'))),
@@ -58,7 +60,8 @@ app.get('/:section/article:id.html', function (req, res) {
             function(callback) {
                 new client.Client().get("http://localhost:3000/mock-prop-config.properties",
                     function (data, response) {
-                        callback(false, data);
+                        var props = properties.parse(String.fromCharCode.apply(null, new Uint16Array(data)));
+                        callback(false, props);
                     }
                 )
             }

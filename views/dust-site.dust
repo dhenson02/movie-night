@@ -1,1 +1,3 @@
 {#model.id}{.|s}{/model.id}
+<br/>
+{prop}
