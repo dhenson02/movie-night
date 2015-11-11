@@ -1,0 +1,67 @@
+{% if model.id %}
+
+    <div class="row" id="video-detail">
+        <div class="col-xs-8 element_spacing_large">
+            <div class="video-media">
+                <div id="player_{{ model.id }}">Loading the player...</div>
+            </div>
+            <div class="video-info row element_spacing_medium" id="story-header">
+                <div class="col-sm-12">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+
+        </div>
+    </div>
+    <div class="row element_spacing_medium">
+        <h1 class="heading video-detail-heading">More Videos</h1>
+        <section class="more-videos col-xs-12 col-sm-6 col-md-12">
+
+        </section>
+    </div>
+
+    <script type="text/javascript">
+        window.jwplayer.key = 'tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==';
+
+        var player_instance = jwplayer("player_{{ model.id }}");
+        var playlist_items = 
+
+        player_instance.setup({
+            file: '{{ model.sources[1].uri }}',
+            image: '{{ model.thumbnail }}',
+            title: '{{ model.title }}',
+            playlist: [
+                {% for video in model["related-videos"] %}
+                    {
+                        file: '{{ video.sources[1].uri }}',
+                        image: '{{ video.thumbnail }}',
+                        title: '{{ video.title }}',
+                    },
+                {% endfor %}
+            ]
+        });
+    </script>
+
+{% endif %}
+
+<div id="video-tabs-wrapper">
+    <ul class="nav nav-tabs" role="tablist">
+    {% for tab in model.tabs %}
+        <li role="presentation" {% if loop.first %}class="active"{% endif %}><a href="#{{ tab.label }}" aria-controls="{{ tab.label }}" role="tab" data-toggle="tab">{{ tab.label }}</a></li>
+    {% endfor %}
+    </ul>
+    <div class="tab-content">
+        {% for tab in model.tabs %}
+            <div role="tabpanel" class="tab-pane{% if loop.first %} active{% endif %}" id="{{ tab.label }}">
+                {% for video in tab.content %}
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <h1 class="title">{{ video.title }}</h1>
+                        <img src="{{ video.thumbnail }}" />
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+</div>
