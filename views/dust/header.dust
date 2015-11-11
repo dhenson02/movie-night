@@ -120,5 +120,5 @@ mistats.taxonomy="_HomePage||||";
 mistats.channel="Homepage";
 </script>
 <script type='text/javascript' src='http://media.kansascity.com/misites/mcc/nmtesttest.js'></script>
-<script src="http://static.mcclatchyinteractive.com/escenic/jwplayer-7.1.4/jwplayer.js" async></script>
+<script src="http://static.mcclatchyinteractive.com/escenic/jwplayer-7.1.4/jwplayer.js"></script>
 </head>

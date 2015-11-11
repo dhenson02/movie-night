@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="col-xs-4">
-
+            <div class="mi-playlist-sidebar"></div>
         </div>
     </div>
     <div class="row element_spacing_medium">
@@ -26,22 +26,53 @@
         window.jwplayer.key = 'tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==';
         
         var player_instance = jwplayer("player_{model.id}");
-        var playlist_items = 
+        var mi_playlist_sidebar = document.querySelector('.mi-playlist-sidebar');
+        var mi_playlist_sidebar_items = mi_playlist_sidebar.innerHTML;
         
         player_instance.setup({
-            file: '{sources[1].uri}',
-            image: '{thumbnail}',
-            title: '{title}',
+            autostart: true,
+            aspectratio: '16:9',
+            width: '100%',
             playlist: [
-                {#related-videos}
+                {
+                    image: '{thumbnail}',
+                    title: '{title}',
+                    sources: [
+                        {#sources}
+                            {
+                                file: '{uri}'
+                            }{@sep}, {/sep}
+                        {/sources}
+                    ]
+                },
+                {#related_videos}
                     {
-                        file: '{sources[1].uri}',
                         image: '{thumbnail}',
                         title: '{title}',
+                        sources: [
+                            {#sources}
+                                {
+                                    file: '{uri}'
+                                }{@sep}, {/sep}
+                            {/sources}
+                        ]
                     }{@sep}, {/sep}
-                {/related-videos}
+                {/related_videos}
             ]
         });
+
+        player_instance.on('ready',function(){
+            var playlist = player_instance.getPlaylist();
+            for (var index=0;index<playlist.length;index++){
+                var playindex = index +1;
+                mi_playlist_sidebar_items += '<div class="media"><div class="media-left"><a href="javascript:playThis('+index+')"><img class="media-object" src="' + playlist[index].image +'" alt="' + playlist[index].title + '"></a></div><div class="media-body"><h4 class="media-heading">' + playlist[index].title + '</h4></div></div>';
+                mi_playlist_sidebar.innerHTML = mi_playlist_sidebar_items;
+            }
+        });
+
+        function playThis(index) {
+            player_instance.playlistItem(index);
+        }
     </script>
 
 {/model}
