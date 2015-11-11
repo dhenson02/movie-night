@@ -3,6 +3,8 @@ var fs = require('fs'),
     express = require('express'),
     request = require('request'),
     nunjucks = require('nunjucks'),
+    jsrender = require('node-jsrender'),
+    handlebars = require('handlebars'),
     dust = require('dustjs-linkedin');
 
 var Client = require('node-rest-client').Client;
@@ -10,27 +12,36 @@ client = new Client();
 
 
 /**
- * setting up dust
+ * what templating engine do you want to use
+ * 1) dust
+ * 2) nunjucks
+ * 3) jsrender
+ * 4) handlebars
  */
-var useDust = false;
-dust.config.whitespace = true;
-dust.config.cache = false;
-dust.helper = require('dustjs-helpers');
-dust.onLoad = function (tmpl, cb) {
-    fs.readFile(path.join('./views', path.relative('/', path.resolve('/', tmpl + '.dust'))),
-        {encoding: 'utf8'}, cb);
-};
+//var engine = "dust";
+//var engine = "nunjucks";
+var engine = "jsrender";
+//var engine = "handlebars";
 
 
+/**
+ * setting up the express app engine
+ */
 var app = express();
+app.use(express.static('public'));
+app.listen(3000, function () {console.log('http://localhost:3000 is now up and running');});
 app.get('/', function (req, res) {
     client.get("http://localhost:3000/mock-server-response.json", function (data, response) {
-        if (useDust == true) {
-            dust.stream("index", {
-                "model": data
-            }).pipe(res);
-        } else {
+        if (engine == "dust") {
+            dust.stream("index", {"model": data}).pipe(res);
+        } else if(engine == "nunjucks") {
             res.render('index.html', {model: data});
+        } else if(engine == "jsrender") {
+            res.render('jsrender/index.html', {model: data});
+        } else if(engine == "handlebars") {
+            return;
+        } else {
+            return;
         }
     });
 });
@@ -39,14 +50,34 @@ app.get('/', function (req, res) {
 /**
  * setting up nunjucks
  */
-nunjucks.configure('views', {
-    autoescape: true,
-    express: app
-});
+if(engine == "nunjucks") {
+    nunjucks.configure('views/nunjucks', {
+        autoescape: true,
+        express: app
+    });
+}
 
 
-app.use(express.static('public'));
+/**
+ * setting up jsrender
+ */
+if (engine == "jsrender") {
+    jsrender.express('html', app);
+    app.set('view engine', 'html');
+}
 
-app.listen(3000, function () {
-    console.log('http://localhost:3000 is now up and running');
-});
+
+/**
+ * setting up dust
+ */
+if(engine == "dust") {
+    dust.config.whitespace = true;
+    dust.config.cache = false;
+    dust.helper = require('dustjs-helpers');
+    dust.onLoad = function (tmpl, cb) {
+        fs.readFile(path.join('./views/dust', path.relative('/', path.resolve('/', tmpl + '.dust'))),
+            {encoding: 'utf8'}, cb);
+    };
+}
+
+

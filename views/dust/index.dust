@@ -1,6 +1,7 @@
 <!doctype html>
 {>"header"/}
 <body>
+<!-- this is dust -->
     {>"masthead"/}
     <div class="container">
         {>"dust-site"/}
