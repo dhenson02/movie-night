@@ -18,10 +18,10 @@ client = new Client();
  * 3) jsrender
  * 4) handlebars
  */
-//var engine = "dust";
+var engine = "dust";
 //var engine = "nunjucks";
 //var engine = "jsrender";
-var engine = "handlebars";
+//var engine = "handlebars";
 
 
 /**
@@ -29,28 +29,33 @@ var engine = "handlebars";
  */
 var app = express();
 app.use(express.static('public'));
-app.listen(3000, function () {console.log('http://localhost:3000 is now up and running');});
-app.get('/', function (req, res) {
-    client.get("http://localhost:3000/mock-server-response.json", function (data, response) {
-        if (engine == "dust") {
-            dust.stream("index", {"model": data}).pipe(res);
-        } else if(engine == "nunjucks") {
-            res.render('index.html', {model: data});
-        } else if(engine == "jsrender") {
-            res.render('jsrender/index.html', {model: data});
-        } else if(engine == "handlebars") {
-            res.render('handlebars/index', {model: data});
-        } else {
-            return;
+app.listen(3000, function () {
+    console.log('http://localhost:3000 is now up and running');
+});
+app.get('/:section/article:id.html', function (req, res) {
+    client.get("http://rutl014d.nandomedia.com:9191/mobile-api/v1/articles/" + req.params.id,
+        function (data, response) {
+            var model = JSON.parse(String.fromCharCode.apply(null, new Uint16Array(data)));
+            if (engine == "dust") {
+                dust.stream("index", {"model": model}).pipe(res);
+            } else if (engine == "nunjucks") {
+                res.render('index.html', {model: model});
+            } else if (engine == "jsrender") {
+                res.render('jsrender/index.html', {model: model});
+            } else if (engine == "handlebars") {
+                res.render('handlebars/index', {model: model});
+            } else {
+                return;
+            }
         }
-    });
+    );
 });
 
 
 /**
  * setting up handlebars
  */
-if(engine == "handlebars") {
+if (engine == "handlebars") {
     app.engine('handlebars', handlebars());
     app.set('view engine', 'handlebars');
 }
@@ -59,7 +64,7 @@ if(engine == "handlebars") {
 /**
  * setting up nunjucks
  */
-if(engine == "nunjucks") {
+if (engine == "nunjucks") {
     nunjucks.configure('views/nunjucks', {
         autoescape: true,
         express: app
@@ -79,7 +84,7 @@ if (engine == "jsrender") {
 /**
  * setting up dust
  */
-if(engine == "dust") {
+if (engine == "dust") {
     dust.config.whitespace = true;
     dust.config.cache = false;
     dust.helper = require('dustjs-helpers');
