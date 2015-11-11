@@ -12,27 +12,27 @@ client = new Client();
 /**
  * setting up dust
  */
-var useDust = true;
+var useDust = false;
 dust.config.whitespace = true;
 dust.config.cache = false;
 dust.helper = require('dustjs-helpers');
-dust.onLoad = function(tmpl, cb) {
-  fs.readFile(path.join('./views', path.relative('/', path.resolve('/', tmpl + '.dust'))),
-      { encoding: 'utf8' }, cb);
+dust.onLoad = function (tmpl, cb) {
+    fs.readFile(path.join('./views', path.relative('/', path.resolve('/', tmpl + '.dust'))),
+        {encoding: 'utf8'}, cb);
 };
 
 
 var app = express();
 app.get('/', function (req, res) {
-    if(useDust == true) {
-        client.get("http://localhost:3000/mock-server-response.json", function(data, response){
+    client.get("http://localhost:3000/mock-server-response.json", function (data, response) {
+        if (useDust == true) {
             dust.stream("index", {
                 "model": data
             }).pipe(res);
-        });
-    } else {
-        res.render('index.html');
-    }
+        } else {
+            res.render('index.html', {model: data});
+        }
+    });
 });
 
 
@@ -48,5 +48,5 @@ nunjucks.configure('views', {
 app.use(express.static('public'));
 
 app.listen(3000, function () {
-  console.log('http://localhost:3000 is now up and running');
+    console.log('http://localhost:3000 is now up and running');
 });
