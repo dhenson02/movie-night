@@ -18,6 +18,7 @@ client = new Client();
  * 3) jsrender
  * 4) handlebars
  */
+//var engine = "";
 var engine = "dust";
 //var engine = "nunjucks";
 //var engine = "jsrender";
@@ -45,7 +46,7 @@ app.get('/:section/article:id.html', function (req, res) {
             } else if (engine == "handlebars") {
                 res.render('handlebars/index', {model: model});
             } else {
-                return;
+                throw err;
             }
         }
     );
