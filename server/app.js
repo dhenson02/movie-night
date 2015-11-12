@@ -1,9 +1,3 @@
-/**
- * configuring dust
- */
-dust.config.whitespace = true;
-
-
 var fs = require('fs'),
     path = require('path'),
     async = require('async'),
@@ -14,6 +8,12 @@ var fs = require('fs'),
     handlebars = require('handlebars'),
     jsrender = require('node-jsrender'),
     client = require('node-rest-client');
+
+
+/**
+ * configuring dust
+ */
+dust.config.whitespace = true;
 dust.config.cache = false;
 dust.onLoad = function (tmpl, cb) {
     fs.readFile(path.join('./views', path.relative('/', path.resolve('/', tmpl + '.dust'))),
