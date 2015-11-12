@@ -1,39 +1,42 @@
 {% if model.id %}
-
     <div class="row" id="video-detail">
         <div class="col-xs-8 element_spacing_large">
+            <h1 class="title">{{ model.title }}</h1>
             <div class="video-media">
                 <div id="player_{{ model.id }}">Loading the player...</div>
             </div>
             <div class="video-info row element_spacing_medium" id="story-header">
                 <div class="col-sm-12">
-
+                    {{ model.leadtext.text }}
                 </div>
             </div>
         </div>
         <div class="col-xs-4">
-
+            <div class="mi-playlist-sidebar"></div>
         </div>
     </div>
     <div class="row element_spacing_medium">
         <h1 class="heading video-detail-heading">More Videos</h1>
-        <section class="more-videos col-xs-12 col-sm-6 col-md-12">
-
-        </section>
     </div>
 
     <script type="text/javascript">
         window.jwplayer.key = 'tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==';
 
         var player_instance = jwplayer("player_{{ model.id }}");
-        var playlist_items = 
+        var mi_playlist_sidebar = document.querySelector('.mi-playlist-sidebar');
+        var mi_playlist_sidebar_items = mi_playlist_sidebar.innerHTML;
 
         player_instance.setup({
-            file: '{{ model.sources[1].uri }}',
-            image: '{{ model.thumbnail }}',
-            title: '{{ model.title }}',
+            autostart: false,
+            aspectratio: '16:9',
+            width: '100%',
             playlist: [
-                {% for video in model["related-videos"] %}
+                {
+                    file: '{{ model.sources[1].uri }}',
+                    image: '{{ model.thumbnail }}',
+                    title: '{{ model.title }}',
+                },
+                {% for video in model["related_videos"] %}
                     {
                         file: '{{ video.sources[1].uri }}',
                         image: '{{ video.thumbnail }}',
@@ -42,23 +45,34 @@
                 {% endfor %}
             ]
         });
-    </script>
+        player_instance.on('ready',function(){
+            var playlist = player_instance.getPlaylist();
+            for (var index=0;index<playlist.length;index++){
+                var playindex = index +1;
+                mi_playlist_sidebar_items += '<div class="media"><div class="media-left"><a href="javascript:playThis('+index+')"><img class="media-object" src="' + playlist[index].image +'" alt="' + playlist[index].title + '"></a></div><div class="media-body"><h4 class="media-heading"><a href="javascript:playThis('+index+')">' + playlist[index].title + '</a></h4></div></div>';
+                mi_playlist_sidebar.innerHTML = mi_playlist_sidebar_items;
+            }
+        });
 
+        function playThis(index) {
+            player_instance.playlistItem(index);
+        }
+    </script>
 {% endif %}
 
-<div id="video-tabs-wrapper">
+<div class="row" id="video-tabs-wrapper">
     <ul class="nav nav-tabs" role="tablist">
     {% for tab in model.tabs %}
-        <li role="presentation" {% if loop.first %}class="active"{% endif %}><a href="#{{ tab.label }}" aria-controls="{{ tab.label }}" role="tab" data-toggle="tab">{{ tab.label }}</a></li>
+        <li role="presentation" {% if loop.first %}class="active"{% endif %}><a href="#tab_{{ loop.index }}" aria-controls="tab_{{ loop.index }}" role="tab" data-toggle="tab">{{ tab.label }}</a></li>
     {% endfor %}
     </ul>
     <div class="tab-content">
         {% for tab in model.tabs %}
-            <div role="tabpanel" class="tab-pane{% if loop.first %} active{% endif %}" id="{{ tab.label }}">
+            <div role="tabpanel" class="tab-pane{% if loop.first %} active{% endif %}" id="tab_{{ loop.index }}">
                 {% for video in tab.content %}
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <h1 class="title">{{ video.title }}</h1>
-                        <img src="{{ video.thumbnail }}" />
+                        <h4 class="title"><a href="{{ video.url }}">{{ video.title }}</a></h4>
+                        <a href="{{ video.url }}"><img src="{{ video.thumbnail }}" /></a>
                     </div>
                 {% endfor %}
             </div>

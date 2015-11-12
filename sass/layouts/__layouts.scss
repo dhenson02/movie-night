@@ -1,3 +1,15 @@
 // All layout files
 
+#video-tabs-wrapper{
+    .nav-tabs{
+        .active a{
+            background: #0093d0;
+            color: #fff;
+        }
+    }
+    .tab-content{
+        margin-top: 20px;
+    }
+}
+
 //@import "article";

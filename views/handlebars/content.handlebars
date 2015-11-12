@@ -1,5 +1,3 @@
-{#model}
-
     <div class="row" id="video-detail">
         <div class="col-xs-8 element_spacing_large">
             <div class="video-media">
@@ -25,7 +23,7 @@
     <script type="text/javascript">
         window.jwplayer.key = 'tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==';
 
-        var player_instance = jwplayer("player_{model.id}");
+        var player_instance = jwplayer("player_{{model.id}}");
         var mi_playlist_sidebar = document.querySelector('.mi-playlist-sidebar');
         var mi_playlist_sidebar_items = mi_playlist_sidebar.innerHTML;
 
@@ -35,29 +33,29 @@
             width: '100%',
             playlist: [
                 {
-                    image: '{thumbnail}',
-                    title: '{title}',
+                    image: '{{model.thumbnail}}',
+                    title: '{{model.title}}',
                     sources: [
-                        {#sources}
+                        {{#each model.sources}}
                             {
-                                file: '{uri}'
-                            }{@sep}, {/sep}
-                        {/sources}
+                                file: '{{uri}}'
+                            },
+                        {{/each}}
                     ]
                 },
-                {#related_videos}
+                {{#each model.related_videos}}
                     {
-                        image: '{thumbnail}',
-                        title: '{title}',
+                        image: '{{thumbnail}}',
+                        title: '{{title}}',
                         sources: [
-                            {#sources}
+                            {{#each sources}}
                                 {
-                                    file: '{uri}'
-                                }{@sep}, {/sep}
-                            {/sources}
+                                    file: '{{uri}}'
+                                },
+                            {{/each}}
                         ]
-                    }{@sep}, {/sep}
-                {/related_videos}
+                    },
+                {{/each}}
             ]
         });
 
@@ -65,7 +63,7 @@
             var playlist = player_instance.getPlaylist();
             for (var index=0;index<playlist.length;index++){
                 var playindex = index +1;
-                mi_playlist_sidebar_items += '<div class="media"><div class="media-left"><a href="javascript:playThis('+index+')"><img class="media-object" src="' + playlist[index].image +'" alt="' + playlist[index].title + '"></a></div><div class="media-body"><h4 class="media-heading">' + playlist[index].title + '</h4></div></div>';
+                mi_playlist_sidebar_items += '<div class="media"><div class="media-left"><a href="javascript:playThis('+index+')"><img class="media-object" src="' + playlist[index].image +'" alt="' + playlist[index].title + '"></a></div><div class="media-body"><h4 class="media-heading"><a href="javascript:playThis('+index+')">' + playlist[index].title + '</a></h4></div></div>';
                 mi_playlist_sidebar.innerHTML = mi_playlist_sidebar_items;
             }
         });
@@ -75,24 +73,23 @@
         }
     </script>
 
-{/model}
 
 <div id="video-tabs-wrapper">
     <ul class="nav nav-tabs" role="tablist">
-    {#model.tabs}
-        <li role="presentation" {@first}class="active"{/first}><a href="#tab{$idx}" aria-controls="tab{$idx}" role="tab" data-toggle="tab">{label}</a></li>
-    {/model.tabs}
+    {{#each model.tabs}}
+        <li role="presentation" {{@first}}class="active"{{/first}}><a href="#tab{{@index}}" aria-controls="tab{{@index}}" role="tab" data-toggle="tab">{label}</a></li>
+    {{/each}}
     </ul>
     <div class="tab-content">
-        {#model.tabs}
-            <div role="tabpanel" class="tab-pane{@first} active{/first}" id="tab{$idx}">
-                {#content}
+        {{#each model.tabs}}
+            <div role="tabpanel" class="tab-pane{{@first}} active{{/first}}" id="tab{{@index}}">
+                {{#each content}}
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <h1 class="title">{title}</h1>
-                        <img src="{thumbnail}" />
+                        <h1 class="title">{{title}}</h1>
+                        <img src="{{thumbnail}}" />
                     </div>
-                {/content}
+                {{/each}}
             </div>
-        {/model.tabs}
+        {{/each}}
     </div>
 </div>
