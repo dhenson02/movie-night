@@ -110,12 +110,12 @@
 <div id="video-tabs-wrapper">
     <ul class="nav nav-tabs" role="tablist">
     {#model.tabs}
-        <li role="presentation" {@first}class="active"{/first}><a href="#{label}" aria-controls="{label}" role="tab" data-toggle="tab">{label}</a></li>
+        <li role="presentation" {@first}class="active"{/first}><a href="#tab{$idx}" aria-controls="tab{$idx}" role="tab" data-toggle="tab">{label}</a></li>
     {/model.tabs}
     </ul>
     <div class="tab-content">
         {#model.tabs}
-            <div role="tabpanel" class="tab-pane{@first} active{/first}" id="{label}">
+            <div role="tabpanel" class="tab-pane{@first} active{/first}" id="tab{$idx}">
                 {#content}
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <h1 class="title">{title}</h1>
