@@ -19,8 +19,8 @@ client = new Client();
  * 4) handlebars
  */
 //var engine = "";
-var engine = "dust";
-//var engine = "nunjucks";
+//var engine = "dust";
+var engine = "nunjucks";
 //var engine = "jsrender";
 //var engine = "handlebars";
 
