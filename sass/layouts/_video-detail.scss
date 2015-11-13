@@ -1,0 +1,65 @@
+.mi-video-playlist-widget {
+	margin-top: -20px;
+	padding-top: 40px;
+	background: #2e2e2e;
+	box-shadow: -49em 0 0 #2e2e2e, 49em 0 0 #2e2e2e;
+	.jw-skin-seven {
+		.jw-progress {
+			background: #0093d0;
+		}
+		.jw-button-color:hover {
+			color: #0093d0;
+		}
+		.jw-playlist-container {
+			.jw-label .jw-icon-play {
+				color: #0093d0;
+			}
+			.jw-option:hover .jw-label {
+				color: #0093d0;
+			}
+		}
+	}
+	.video-details {
+		display: none;
+		h2 {
+			color: #fff;
+		}
+		color: #e0e0e0;
+	}
+	.playlist-item {
+		float: left;
+		width: 100%;
+		border-top: 1px solid #333333;
+		border-bottom: 1px solid #232323;
+		padding: 8px 0;
+		.media {
+			float: left;
+			img {
+				position: relative;
+				width: 135px;
+				height: 73px;
+			}
+		}
+		.media-desc {
+			position: relative;
+			height: 73px;
+			line-height: 73px;
+			vertical-align: middle;
+		}
+		h4 {
+			font-size: 16px;
+			font-weight: normal;
+			line-height: 20px;
+			color: #e0e0e0;
+			margin: 0;
+			padding-left: 145px;
+			@include center-me(y);
+		}
+		&.active {
+			background: #292929;
+		}
+		&[data-index="2"] {
+			display: none!important;
+		}
+	}
+}

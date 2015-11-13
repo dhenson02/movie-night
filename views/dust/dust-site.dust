@@ -1,34 +1,53 @@
 {#model}
 
-    <div class="row" id="video-detail">
-        <div class="col-xs-8 element_spacing_large">
-            <div class="video-media">
+    <div class="row mi-video-playlist-widget" id="video-detail">
+        <div class="col-sm-8 element_spacing_large">
+            <div class="video-media" data-id="{id}">
                 <div id="player_{model.id}">Loading the player...</div>
-            </div>
+            </div>    
             <div class="video-info row element_spacing_medium" id="story-header">
                 <div class="col-sm-12">
-
+                    <div class="video-details" data-index="0">
+                        <h2>{title}</h2>
+                        <p>{#leadtext}{text}{/leadtext}</p>
+                    </div>
+                    {#related_videos}
+                        <div class="video-details" data-index="{@math key=$idx method="add" operand=1/}">
+                            <h2>{title}</h2>
+                            <p>{#leadtext}{text}{/leadtext}</p>
+                        </div>
+                    {/related_videos}
                 </div>
             </div>
         </div>
-        <div class="col-xs-4">
-            <div class="mi-playlist-sidebar"></div>
+        <div class="col-sm-4">
+            <div class="mi-playlist-sidebar">
+                <a class="playlist-item" href="javascript:playThis(0)" data-index="0">
+                    <div class="media">
+                        <img src="{thumbnail}" alt="{title}" />
+                    </div>
+                    <div class="media-desc">
+                        <h4>{title}</h4>
+                    </div>
+                </a>
+                {#related_videos}
+                    <a class="playlist-item" href="javascript:playThis({@math key=$idx method="add" operand=1/})" data-index="{@math key=$idx method="add" operand=1/}">
+                        <div class="media">
+                            <img src="{thumbnail}" alt="{title}" />
+                        </div>
+                        <div class="media-desc">
+                            <h4>{title}</h4>
+                        </div>
+                    </a>
+                {/related_videos}
+            </div>
         </div>
-    </div>
-    <div class="row element_spacing_medium">
-        <h1 class="heading video-detail-heading">More Videos</h1>
-        <section class="more-videos col-xs-12 col-sm-6 col-md-12">
-
-        </section>
     </div>
 
     <script type="text/javascript">
         window.jwplayer.key = 'tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==';
-
         var player_instance = jwplayer("player_{model.id}");
-        var mi_playlist_sidebar = document.querySelector('.mi-playlist-sidebar');
-        var mi_playlist_sidebar_items = mi_playlist_sidebar.innerHTML;
-
+        
         player_instance.setup({
             autostart: true,
             aspectratio: '16:9',
@@ -61,18 +80,29 @@
             ]
         });
 
-        player_instance.on('ready',function(){
-            var playlist = player_instance.getPlaylist();
-            for (var index=0;index<playlist.length;index++){
-                var playindex = index +1;
-                mi_playlist_sidebar_items += '<div class="media"><div class="media-left"><a href="javascript:playThis('+index+')"><img class="media-object" src="' + playlist[index].image +'" alt="' + playlist[index].title + '"></a></div><div class="media-body"><h4 class="media-heading">' + playlist[index].title + '</h4></div></div>';
-                mi_playlist_sidebar.innerHTML = mi_playlist_sidebar_items;
-            }
+        player_instance.on('playlistItem',function(index) {
+            //console.log(index);
+            var current_video = index.index;
+            // Update video summary
+            $('.video-details').hide();
+            $('.video-details').each(function() {
+                if( $(this).data('index') == current_video)
+                    $(this).show();
+            });
+            // update current playlist item
+            $('.playlist-item').removeClass('active');
+            $('.playlist-item').each(function() {
+                if( $(this).data('index') == current_video)
+                    $(this).addClass('active');
+            });
+
         });
 
         function playThis(index) {
+            $('.video-media').data('index', index);
             player_instance.playlistItem(index);
         }
+
     </script>
 
 {/model}
@@ -80,12 +110,12 @@
 <div id="video-tabs-wrapper">
     <ul class="nav nav-tabs" role="tablist">
     {#model.tabs}
-        <li role="presentation" {@first}class="active"{/first}><a href="#tab{$idx}" aria-controls="tab{$idx}" role="tab" data-toggle="tab">{label}</a></li>
+        <li role="presentation" {@first}class="active"{/first}><a href="#{label}" aria-controls="{label}" role="tab" data-toggle="tab">{label}</a></li>
     {/model.tabs}
     </ul>
     <div class="tab-content">
         {#model.tabs}
-            <div role="tabpanel" class="tab-pane{@first} active{/first}" id="tab{$idx}">
+            <div role="tabpanel" class="tab-pane{@first} active{/first}" id="{label}">
                 {#content}
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <h1 class="title">{title}</h1>
