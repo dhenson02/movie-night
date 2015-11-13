@@ -1,2 +1,12 @@
-IT WORKED!!!
-{{:model.id}}
+<!DOCTYPE html>
+{{include tmpl="#header.html"/}}
+<body>
+<!-- this is jsrender -->
+    {{include tmpl="masthead.html"/}}
+    <div class="container">
+        {{include tmpl="content.html"/}}
+        {{:model.id}}
+    </div>
+    {{include tmpl="footer.html"/}}
+</body>
+</html>

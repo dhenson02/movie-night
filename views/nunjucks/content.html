@@ -3,7 +3,7 @@
         <div class="col-sm-8 element_spacing_large">
             <div class="video-media" data-id="{{ model.id }}">
                 <div id="player_{{ model.id }}">Loading the player...</div>
-            </div>    
+            </div>
             <div class="video-info row element_spacing_medium" id="story-header">
                 <div class="col-sm-12">
                     <div class="video-details" data-index="0">
@@ -50,9 +50,9 @@
     <script type="text/javascript">
         window.jwplayer.key = 'tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==';
         var player_instance = jwplayer("player_{{ model.id }}");
-        
+
         player_instance.setup({
-            autostart: true,
+            autostart: false,
             aspectratio: '16:9',
             width: '100%',
             playlist: [
@@ -117,12 +117,14 @@
         <div class="tab-content">
             {% for tab in model.tabs %}
                 <div role="tabpanel" class="tab-pane{% if loop.first %} active{% endif %}" id="tab_{{ loop.index }}">
+                    <div class="block-grid-sm-3 block-grid-xs-1">
                     {% for video in tab.content %}
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <h4 class="title"><a href="{{ video.url }}">{{ video.title }}</a></h4>
+                        <div class="block-grid-item">
                             <a href="{{ video.url }}"><img src="{{ video.thumbnail }}" /></a>
+                            <h4 class="title"><a href="{{ video.url }}">{{ video.title }}</a></h4>
                         </div>
                     {% endfor %}
+                    </div>
                 </div>
             {% endfor %}
         </div>
