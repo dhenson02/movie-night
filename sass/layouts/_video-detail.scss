@@ -27,6 +27,9 @@
 		}
 		color: #e0e0e0;
 	}
+	.mi-playlist-sidebar {
+		border-top: 1px solid #232323;
+	}
 	.playlist-item {
 		float: left;
 		width: 100%;
@@ -35,10 +38,20 @@
 		padding: 8px 0;
 		.media {
 			float: left;
+			position: relative;
+			width: 135px;
+			height: 73px;
 			img {
 				position: relative;
-				width: 135px;
-				height: 73px;
+				width: 100%;
+				height: auto;
+			}
+			.duration {
+				position: absolute;
+				bottom: 5px;
+				right: 7px;
+				color: #fff;
+				font-size: 12px;
 			}
 		}
 		.media-desc {
