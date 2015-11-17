@@ -26,6 +26,23 @@
 			color: #fff;
 		}
 		color: #e0e0e0;
+		.share-icons {
+			li {
+				z-index: 1;
+			}
+			.glyphicon {
+				cursor: pointer;
+				color: #2e2e2e;
+				background-color: #e0e0e0;
+				&:hover {
+					background-color: #0d76ba;
+					color: #fff;
+				}
+			}
+		}
+		.share-options {
+			color: #2e2e2e;
+		}
 	}
 	.mi-playlist-sidebar {
 		border-top: 1px solid #232323;

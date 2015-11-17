@@ -1,0 +1,71 @@
+<ul class="share-icons video">
+    <li class="facebook">
+        <a class="facebook-share" href=
+        "http://www.facebook.com/sharer/sharer.php?locale=es_ES&amp;u={url|uc}"
+        onclick=
+        "javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;"
+        title="Share on Facebook"></a>
+        <div class="glyphicon glyphicon-facebook"></div>
+    </li>
+    <li class="twitter">
+        <a href=
+        "https://twitter.com/share?text={title|uc}&url={url|uc}"
+        onclick=
+        "javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;"
+        title="Compártalo en Twitter"></a>
+        <div class="glyphicon glyphicon-twitter"></div>
+    </li>
+    <li class="embed" onclick="return true">
+        <div class="glyphicon glyphicon-code"></div>
+        <div class="share-options embed-dropdown">
+            Embed Code: 
+            <textarea onclick="this.focus();this.select()" onfocus=
+            "this.select()" onmouseover="this.focus()" readonly="readonly">
+                <iframe src="{url}/video-embed" width="640" height="380" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+            </textarea>
+        </div>
+    </li>
+    <li class="email">
+        <a href=
+        "mailto:?subject={title|uc}&body={url|uc}">
+        </a>
+        <div class="glyphicon glyphicon-envelope"></div>
+    </li>
+    <li class="more" onclick="return true">
+        <ul class="share-options">
+            <li class="linked-in">
+                <a href=
+                "http://www.linkedin.com/shareArticle?mini=true&url={url|uc}&title={title|uc}">
+                <span class="glyphicon glyphicon-linkedin"></span>LinkedIn</a>
+            </li>
+            <li class="google">
+                <a href=
+                "https://plus.google.com/share?url={url|uc}"
+                onclick=
+                "javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=600');return false;"
+                title="Compártalo en Google Plus"><span class=
+                "glyphicon glyphicon-google-plus"></span>Google+</a>
+            </li>
+            <li class="pinterest">
+                <a href=
+                "http://www.pinterest.com/pin/create/button/?url={url|uc}&description={title|uc}">
+                <span class=
+                "glyphicon glyphicon-pinterest-p"></span>Pinterest</a>
+            </li>
+            <li class="reddit">
+                <a href=
+                "http://www.reddit.com/submit?url={url}">
+                <span class="glyphicon glyphicon-reddit"></span>Reddit</a>
+            </li>
+            <li class="print">
+                <a href="javascript:window.print();"><span class=
+                "glyphicon glyphicon-print"></span>Imprimir</a>
+            </li>
+            <li class="reprints">
+                <a href="http://www.mcclatchyreprints.com">Ordenar Una Copia de
+                Este Artículo</a>
+            </li>
+        </ul>
+        <div class="glyphicon glyphicon-share"></div>
+    </li>
+</ul>

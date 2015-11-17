@@ -10,11 +10,13 @@
                     <div class="video-details" data-index="0">
                         <h2>{title}</h2>
                         <p>{#leadtext}{text}{/leadtext}</p>
+                        {>"socials"/}
                     </div>
                     {#related_videos}
                         <div class="video-details" data-index="{@math key=$idx method="add" operand=1/}">
                             <h2>{title}</h2>
                             <p>{#leadtext}{text}{/leadtext}</p>
+                            {>"socials"/}
                         </div>
                     {/related_videos}
                 </div>
@@ -51,7 +53,7 @@
         var player_instance = jwplayer("player_{model.id}");
 
         player_instance.setup({
-            //autostart: true,
+            autostart: true,
             aspectratio: '16:9',
             width: '100%',
             playlist: [
@@ -84,7 +86,7 @@
             related: {
                 file: "/mock-related-videos.json",
                 onclick: "link",
-                autoplay: true,
+                //oncomplete: "autoplay",
                 autoplaytimer: 5
             }
         });

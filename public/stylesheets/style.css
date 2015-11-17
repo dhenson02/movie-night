@@ -387,6 +387,17 @@ th {
     color: #e0e0e0; }
     .mi-video-playlist-widget .video-details h2 {
       color: #fff; }
+    .mi-video-playlist-widget .video-details .share-icons li {
+      z-index: 1; }
+    .mi-video-playlist-widget .video-details .share-icons .glyphicon {
+      cursor: pointer;
+      color: #2e2e2e;
+      background-color: #e0e0e0; }
+      .mi-video-playlist-widget .video-details .share-icons .glyphicon:hover {
+        background-color: #0d76ba;
+        color: #fff; }
+    .mi-video-playlist-widget .video-details .share-options {
+      color: #2e2e2e; }
   .mi-video-playlist-widget .mi-playlist-sidebar {
     border-top: 1px solid #232323; }
   .mi-video-playlist-widget .playlist-item {
